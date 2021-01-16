@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_app/utils/global.dart';
-import 'package:flutter_app/utils/icon_font.dart';
-import 'components/tool_btn.dart';
+import 'package:tool_kit/components/tool_btn.dart';
+import 'package:tool_kit/utils/global.dart';
+import 'package:tool_kit/utils/icon_font.dart';
+
 
 class HomePage extends StatefulWidget {
   HomePage({Key key}) : super(key: key);
