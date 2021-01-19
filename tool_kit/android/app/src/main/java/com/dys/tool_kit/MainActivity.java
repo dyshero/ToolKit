@@ -1,4 +1,4 @@
-package com.dys.tool_kit;
+package com.dys.toolkit;
 
 import io.flutter.embedding.android.FlutterActivity;
 

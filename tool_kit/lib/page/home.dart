@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:tool_kit/components/tool_btn.dart';
+import 'package:tool_kit/page/ruler.dart';
 import 'package:tool_kit/utils/global.dart';
 import 'package:tool_kit/utils/icon_font.dart';
 
@@ -53,7 +54,10 @@ class _HomePageState extends State<HomePage> {
               ToolButton(
                 icon: IconFont.chizi,
                 text: '尺子',
-                onTap: () {},
+                onTap: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => RulerPage()));
+                },
               ),
               SizedBox(height: boxHeight),
               ToolButton(
